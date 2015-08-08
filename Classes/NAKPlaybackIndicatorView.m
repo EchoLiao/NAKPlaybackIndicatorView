@@ -161,9 +161,9 @@
 
 - (void)stopAnimating
 {
-    if (!self.contentView.isOscillating) {
-        return;
-    }
+//    if (!self.contentView.isOscillating) {
+//        return;
+//    }
 
     [self.contentView stopOscillation];
     [self.contentView startDecay];
